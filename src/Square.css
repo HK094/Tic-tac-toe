@@ -1,0 +1,40 @@
+
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-board {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f8f8;
+   
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    height: 60px;
+    width: 60px;
+}
+
+  
+ .square:hover {
+    background-color: #f2f2f2;
+  }
+
+  
+
+ 
+  
